@@ -1,0 +1,161 @@
+html{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*Header section*/
+
+.flexcontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+header{
+  display: flex;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  margin-top: -8px;
+  justify-content: space-between;
+}
+
+img{
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav{
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+a{
+  color: seashell;
+  align-items: right;
+}
+
+/*Main container*/
+
+.maincontainer{
+  display: block;
+  padding-top: 61px;
+  width: 1200px;
+  margin: auto;
+  z-index: 0.5
+}
+
+/*Mission section*/
+
+.missioncontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission{
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content{
+  display: block;
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+}
+
+/*Featured Section*/
+
+.featuredcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#featured{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding: 5px;
+}
+#featured .content{
+  display: block;
+}
+
+#featured img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+#featured span{
+  font-weight: bold;
+}
+
+/*Locations Section*/
+
+.locationcontainer{
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.locationhead{
+  align-items: center;
+  justify-content: center;
+}
+
+#location{
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-top: -5px;
+}
+
+#location .flexitems{
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+#location .content{
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+  height: auto;
+  width: 300px;
+  padding: 10px;
+  margin: 15px 20px;
+  justify-content: center;
+}
+
+/*Footer section*/
+
+.footer{
+  display: block;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+}
+
+.copyright{
+  display: block;
+  text-align: left;
+}
